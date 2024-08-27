@@ -13,3 +13,7 @@ document.getElementById("researchButton").addEventListener("click", function() {
 document.getElementById("visionButton").addEventListener("click", function() {
     window.location.href = "vision.html";
 });
+
+document.getElementById("teamButton").addEventListener("click", function() { // New Event Listener
+    window.location.href = "team.html";
+});
